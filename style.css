@@ -1,0 +1,318 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+button{
+    background-color: hsl(180, 66%, 49%);
+}
+
+a {
+    font-weight:500;
+    margin-left: 50px;
+   
+}
+
+
+.a{
+    margin-left: 500px;;
+}
+
+.space{
+    height: 56px;
+}
+  
+.sect1 h2{
+    font-weight: 700; 
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.sect1 p{
+    line-height: 30px;
+}
+
+.img1{
+    width: 500px;
+    height: 300px;
+}
+
+.sect2 {
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(img/img2.svg);
+    height: 150px;
+    width: 850px;
+    margin-left: 130px;
+}
+
+.forms {
+    margin-left: 10px;
+}
+
+.sect3 {
+    background-color:#FFF;
+    height: 55px;
+    width: 850px;
+    margin-left: 130px;
+}
+
+.sect3P1{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+
+.sect3P2 {
+    margin-left: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+.sect3 button{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.card1{
+
+    position: relative;
+    width: 367px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+    margin-left: 70px;
+    background: #FFF;
+    border-radius: 10px;
+  }
+
+  .card2{
+
+    position: relative;
+    width: 367px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+    margin-left: 70px;
+    background: #FFF;
+    border-radius: 10px;
+    margin-top: 50px;
+  }
+
+  .card3{
+
+    position: relative;
+    width: 367px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+    margin-left: 70px;
+    background: #FFF;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+
+
+  .back {
+      height: 70px;
+      width: 70px;
+      background-color: hsl(257, 27%, 26%);
+      border-radius: 400px;
+      margin-top:-50px ;
+  }
+
+  .back img{
+      margin-left: 14px;
+      margin-top: 10px;
+  }
+
+  .sect4 {
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(img/img2.svg);
+    height: 200px;
+    width: 100%;
+    
+}
+
+.footer{
+    height: 250px;
+    background-color: hsl(260, 8%, 14%);
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+.footer li{
+    color:white ;
+    list-style: none;
+}
+
+.footer-links img{
+    margin-left: 15px;
+}
+
+.list1{
+    margin-left: 30px;
+}
+
+.phone {
+    display: none;
+}
+
+ .pNav{
+     display: none;
+ }
+.section1 p{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.section1 h2{
+    font-weight: 700;
+    
+}
+
+@media all and (max-width: 560px){
+
+    .a{
+        margin-left: 0px;
+       
+    }
+
+  
+
+    .phone{
+        display: block;
+    }
+
+    .pNav{
+        display: block;
+    }
+
+    .sect2 {
+        
+            background-color: hsl(257, 27%, 26%);
+            background-image: url(img/img2.svg);
+            height: 150px;
+            width: 320px;
+            margin-left: 0px;
+            
+        
+    }
+ 
+   
+
+    .Psect2{
+        background-color: hsl(257, 27%, 26%);
+        background-image: url(img/img2.svg);
+        height: 150px;
+        width: 320px;
+        
+    }
+
+    .Psect3 {
+        background-color:#FFF;
+        height: 150px;
+        width: 320px;
+        border-radius: 20px;
+       
+    }
+    
+    .Psect3 button{
+        width: 280px;
+        height: 50px;
+        margin-left: 20px;
+    }
+
+    .sect3P1{
+        margin-left: 26px;
+        margin-top: 10px;
+        font-size: 18px;
+        
+    }
+    
+    
+    .sect3P2 {
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 10px;
+
+    
+    }
+    
+
+
+
+    .card1{
+        width: 300px;
+        margin-left: 25px;
+      }
+    
+      .card2{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 40px;
+      }
+    
+      .card3{
+        width: 300px;
+        margin-left: 25px;
+        margin-top: 40px;
+      }
+
+      .footer {
+          height: auto;
+          width: 100% !;
+      }
+
+      .footer-links img{
+        margin-left: 15px;
+    }
+    
+    .list1{
+        margin-left: 0px;
+    }
+
+    .naV {
+        background-color: hsl(257, 27%, 26%);
+    }
+
+    #lin{
+        color: white;
+        line-height: 50px;
+        
+    }
+
+    .linB{
+        color: white;
+        margin-left: 10px;
+        width: 90%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .line{
+        width: 95%;
+        background-color: gray;
+        height: 2px;
+        border-bottom: 50px;
+        margin-left: 14px;
+        
+    }
+
+    
+
+
+   
+
+
+}
